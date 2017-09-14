@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.example.smeetbhatt.database1.LoginActivity">
+
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:id="@+id/unEditText"
+        android:gravity="center"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:id="@+id/upEditText"
+        android:layout_below="@+id/unEditText"
+        android:gravity="center"
+        />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:onClick="buttonClicked"
+        android:text="Login"
+        android:layout_below="@+id/upEditText"
+        android:id="@+id/buttonLogin"/>
+
+</RelativeLayout>
