@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Mealocity Task</string>
+    <string name="logged_in">Logged in</string>
 </resources>
